@@ -1,2 +1,1 @@
-# ciphermind-rust
-CipherMind: Terminal Code Breaker
+CipherMind is a smart, text-based code-breaking puzzle game written in Rust for the terminal. The computer generates a secret code, and players have a limited number of guesses to crack it using logical deduction from each round of feedback. Designed for quick sessions and clean terminal UX, CipherMind shows off Rust’s speed and reliability while giving casual players a tight, satisfying brain workout—no graphics, just pure logic.
