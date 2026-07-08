@@ -6,15 +6,26 @@ CipherMind is a Mastermind-style logic puzzle that challenges players to crack a
 
 ## 🎮 Game Overview
 
-The computer generates a secret 4-color code, and you have **10 attempts** to crack it. After each guess, you'll receive feedback that helps you narrow down the possibilities:
+At the start of each game you choose a **difficulty**, then the computer generates a secret color code for you to crack. After each guess, you'll receive feedback that helps you narrow down the possibilities:
 
 - **Exact matches**: Colors that are correct and in the right position
 - **Color matches**: Colors that are correct but in the wrong position
 
 Use logic and deduction to solve the puzzle before you run out of guesses!
 
+### 🎚️ Difficulty Modes
+
+| Mode | Slots | Colors | Guesses |
+|---------|:-----:|:------:|:-------:|
+| Easy | 4 | 4 (R G B Y) | 12 |
+| Classic | 4 | 6 (R G B Y M C) | 10 |
+| Hard | 5 | 6 (R G B Y M C) | 8 |
+
+Pressing Enter at the difficulty prompt selects **Classic** by default.
+
 ## ✨ Features
 
+- **🎚️ Three Difficulty Modes**: Easy, Classic, and Hard vary the code length, color palette, and guess budget
 - **🎨 Colorful Terminal UI**: Uses ANSI colors to display guesses and feedback visually
 - **🧠 Smart Feedback System**: Precise hints after each guess to guide your deduction
 - **💬 Encouraging Messages**: Fun, contextual hints that keep the game engaging
@@ -46,8 +57,9 @@ cargo build --release
 
 ## 🎯 How to Play
 
-1. **Start the game** - The computer generates a random 4-color code
-2. **Available colors**:
+1. **Choose a difficulty** - Easy, Classic, or Hard (see the table above); press Enter for Classic
+2. **The computer generates a random code** - length and color palette depend on the difficulty
+3. **Available colors** (Easy uses the first four):
    - **R** = Red
    - **G** = Green
    - **B** = Blue
@@ -55,13 +67,13 @@ cargo build --release
    - **M** = Magenta
    - **C** = Cyan
 
-3. **Make a guess** - Enter 4 letters (e.g., `RGYB`)
-4. **Read the feedback**:
+4. **Make a guess** - Enter one letter per slot (e.g., `RGYB`, or `RGYBM` on Hard)
+5. **Read the feedback**:
    - "2 exact" = 2 colors are correct and in the right position
    - "1 color" = 1 color is correct but in the wrong position
 
-5. **Use logic** - Combine clues from all your guesses to deduce the code
-6. **Win or learn** - Crack the code in 10 guesses or see the solution!
+6. **Use logic** - Combine clues from all your guesses to deduce the code
+7. **Win or learn** - Crack the code within your guess budget or see the solution!
 
 ### Example Gameplay
 
@@ -99,10 +111,10 @@ The game is structured with clean, modular Rust code:
 
 ### Key Functions
 
-- `Game::new()` - Generates a random secret code
-- `Game::validate_guess()` - Validates player input
+- `Game::new(difficulty)` - Generates a random secret code for the chosen difficulty
+- `Game::validate_guess()` - Validates player input against the difficulty's length and palette
 - `Game::get_feedback()` - Calculates exact and color matches
-- `Game::play_round()` - Processes one guess-feedback cycle
+- `Game::submit_guess()` - Records an attempt and reports feedback plus whether it won
 
 ### Running Tests
 
