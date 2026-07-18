@@ -1,0 +1,1176 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "game.rs",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L1",
+      "id": "src_game_rs",
+      "community": 1,
+      "norm_label": "game.rs"
+    },
+    {
+      "label": "Difficulty",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L11",
+      "id": "src_game_difficulty",
+      "community": 6,
+      "norm_label": "difficulty"
+    },
+    {
+      "label": ".colors()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L42",
+      "id": "src_game_difficulty_colors",
+      "community": 6,
+      "norm_label": ".colors()"
+    },
+    {
+      "label": "Feedback",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L49",
+      "id": "src_game_feedback",
+      "community": 1,
+      "norm_label": "feedback"
+    },
+    {
+      "label": "Game",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L55",
+      "id": "src_game_game",
+      "community": 7,
+      "norm_label": "game"
+    },
+    {
+      "label": ".new()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L63",
+      "id": "src_game_game_new",
+      "community": 5,
+      "norm_label": ".new()"
+    },
+    {
+      "label": ".validate_guess()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L78",
+      "id": "src_game_game_validate_guess",
+      "community": 6,
+      "norm_label": ".validate_guess()"
+    },
+    {
+      "label": ".get_feedback()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L103",
+      "id": "src_game_game_get_feedback",
+      "community": 1,
+      "norm_label": ".get_feedback()"
+    },
+    {
+      "label": ".submit_guess()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L134",
+      "id": "src_game_game_submit_guess",
+      "community": 7,
+      "norm_label": ".submit_guess()"
+    },
+    {
+      "label": "test_feedback_all_exact()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L147",
+      "id": "src_game_test_feedback_all_exact",
+      "community": 1,
+      "norm_label": "test_feedback_all_exact()"
+    },
+    {
+      "label": "test_feedback_no_matches()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L159",
+      "id": "src_game_test_feedback_no_matches",
+      "community": 1,
+      "norm_label": "test_feedback_no_matches()"
+    },
+    {
+      "label": "test_feedback_color_matches()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L171",
+      "id": "src_game_test_feedback_color_matches",
+      "community": 1,
+      "norm_label": "test_feedback_color_matches()"
+    },
+    {
+      "label": "test_feedback_mixed()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L183",
+      "id": "src_game_test_feedback_mixed",
+      "community": 1,
+      "norm_label": "test_feedback_mixed()"
+    },
+    {
+      "label": "test_validate_guess_valid()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L195",
+      "id": "src_game_test_validate_guess_valid",
+      "community": 5,
+      "norm_label": "test_validate_guess_valid()"
+    },
+    {
+      "label": "test_validate_guess_invalid_length()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L202",
+      "id": "src_game_test_validate_guess_invalid_length",
+      "community": 5,
+      "norm_label": "test_validate_guess_invalid_length()"
+    },
+    {
+      "label": "test_validate_guess_invalid_color()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L209",
+      "id": "src_game_test_validate_guess_invalid_color",
+      "community": 5,
+      "norm_label": "test_validate_guess_invalid_color()"
+    },
+    {
+      "label": "test_easy_rejects_colors_outside_palette()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L217",
+      "id": "src_game_test_easy_rejects_colors_outside_palette",
+      "community": 5,
+      "norm_label": "test_easy_rejects_colors_outside_palette()"
+    },
+    {
+      "label": "test_easy_feedback_four_slots()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L226",
+      "id": "src_game_test_easy_feedback_four_slots",
+      "community": 1,
+      "norm_label": "test_easy_feedback_four_slots()"
+    },
+    {
+      "label": "test_hard_requires_five_slots()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L238",
+      "id": "src_game_test_hard_requires_five_slots",
+      "community": 5,
+      "norm_label": "test_hard_requires_five_slots()"
+    },
+    {
+      "label": "test_hard_feedback_five_slots()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L245",
+      "id": "src_game_test_hard_feedback_five_slots",
+      "community": 1,
+      "norm_label": "test_hard_feedback_five_slots()"
+    },
+    {
+      "label": "test_difficulty_color_palettes()",
+      "file_type": "code",
+      "source_file": "src/game.rs",
+      "source_location": "L263",
+      "id": "src_game_test_difficulty_color_palettes",
+      "community": 1,
+      "norm_label": "test_difficulty_color_palettes()"
+    },
+    {
+      "label": "ui.rs",
+      "file_type": "code",
+      "source_file": "src/ui.rs",
+      "source_location": "L1",
+      "id": "src_ui_rs",
+      "community": 2,
+      "norm_label": "ui.rs"
+    },
+    {
+      "label": "print_colored_symbol()",
+      "file_type": "code",
+      "source_file": "src/ui.rs",
+      "source_location": "L12",
+      "id": "src_ui_print_colored_symbol",
+      "community": 2,
+      "norm_label": "print_colored_symbol()"
+    },
+    {
+      "label": "show_guess_result()",
+      "file_type": "code",
+      "source_file": "src/ui.rs",
+      "source_location": "L33",
+      "id": "src_ui_show_guess_result",
+      "community": 2,
+      "norm_label": "show_guess_result()"
+    },
+    {
+      "label": "print_hint()",
+      "file_type": "code",
+      "source_file": "src/ui.rs",
+      "source_location": "L49",
+      "id": "src_ui_print_hint",
+      "community": 2,
+      "norm_label": "print_hint()"
+    },
+    {
+      "label": "reveal_code()",
+      "file_type": "code",
+      "source_file": "src/ui.rs",
+      "source_location": "L72",
+      "id": "src_ui_reveal_code",
+      "community": 2,
+      "norm_label": "reveal_code()"
+    },
+    {
+      "label": "select_difficulty()",
+      "file_type": "code",
+      "source_file": "src/ui.rs",
+      "source_location": "L82",
+      "id": "src_ui_select_difficulty",
+      "community": 2,
+      "norm_label": "select_difficulty()"
+    },
+    {
+      "label": "print_welcome()",
+      "file_type": "code",
+      "source_file": "src/ui.rs",
+      "source_location": "L116",
+      "id": "src_ui_print_welcome",
+      "community": 2,
+      "norm_label": "print_welcome()"
+    },
+    {
+      "label": "play_again()",
+      "file_type": "code",
+      "source_file": "src/ui.rs",
+      "source_location": "L153",
+      "id": "src_ui_play_again",
+      "community": 2,
+      "norm_label": "play_again()"
+    },
+    {
+      "label": "main.rs",
+      "file_type": "code",
+      "source_file": "src/main.rs",
+      "source_location": "L1",
+      "id": "src_main_rs",
+      "community": 8,
+      "norm_label": "main.rs"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src/main.rs",
+      "source_location": "L9",
+      "id": "src_main_main",
+      "community": 8,
+      "norm_label": "main()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 0,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "\ud83e\udde9 CipherMind",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "ciphermind_rust_readme_ciphermind",
+      "community": 0,
+      "norm_label": "\ud83e\udde9 ciphermind"
+    },
+    {
+      "label": "\ud83c\udfae Game Overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "id": "ciphermind_rust_readme_game_overview",
+      "community": 0,
+      "norm_label": "\ud83c\udfae game overview"
+    },
+    {
+      "label": "\ud83c\udf9a\ufe0f Difficulty Modes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "id": "ciphermind_rust_readme_difficulty_modes",
+      "community": 0,
+      "norm_label": "\ud83c\udf9a\ufe0f difficulty modes"
+    },
+    {
+      "label": "\u2728 Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "id": "ciphermind_rust_readme_features",
+      "community": 0,
+      "norm_label": "\u2728 features"
+    },
+    {
+      "label": "\ud83d\ude80 Quick Start",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "id": "ciphermind_rust_readme_quick_start",
+      "community": 4,
+      "norm_label": "\ud83d\ude80 quick start"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "id": "ciphermind_rust_readme_prerequisites",
+      "community": 4,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "Installation & Running",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "id": "ciphermind_rust_readme_installation_running",
+      "community": 4,
+      "norm_label": "installation & running"
+    },
+    {
+      "label": "code:bash (# Clone the repository)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "id": "ciphermind_rust_readme_codeblock_1",
+      "community": 4,
+      "norm_label": "code:bash (# clone the repository)"
+    },
+    {
+      "label": "\ud83c\udfaf How to Play",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "id": "ciphermind_rust_readme_how_to_play",
+      "community": 0,
+      "norm_label": "\ud83c\udfaf how to play"
+    },
+    {
+      "label": "Example Gameplay",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "id": "ciphermind_rust_readme_example_gameplay",
+      "community": 0,
+      "norm_label": "example gameplay"
+    },
+    {
+      "label": "code:block2 (\ud83c\udfaf Enter your guess: RGYB)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L80",
+      "id": "ciphermind_rust_readme_codeblock_2",
+      "community": 0,
+      "norm_label": "code:block2 (\ud83c\udfaf enter your guess: rgyb)"
+    },
+    {
+      "label": "\ud83d\udee0\ufe0f Technical Details",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "id": "ciphermind_rust_readme_technical_details",
+      "community": 3,
+      "norm_label": "\ud83d\udee0\ufe0f technical details"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L102",
+      "id": "ciphermind_rust_readme_architecture",
+      "community": 3,
+      "norm_label": "architecture"
+    },
+    {
+      "label": "Key Functions",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L112",
+      "id": "ciphermind_rust_readme_key_functions",
+      "community": 3,
+      "norm_label": "key functions"
+    },
+    {
+      "label": "Running Tests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L119",
+      "id": "ciphermind_rust_readme_running_tests",
+      "community": 3,
+      "norm_label": "running tests"
+    },
+    {
+      "label": "code:bash (cargo test)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L123",
+      "id": "ciphermind_rust_readme_codeblock_3",
+      "community": 3,
+      "norm_label": "code:bash (cargo test)"
+    },
+    {
+      "label": "\ud83c\udf93 Why Rust?",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L132",
+      "id": "ciphermind_rust_readme_why_rust",
+      "community": 0,
+      "norm_label": "\ud83c\udf93 why rust?"
+    },
+    {
+      "label": "\ud83c\udfb2 Game Strategy Tips",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L142",
+      "id": "ciphermind_rust_readme_game_strategy_tips",
+      "community": 0,
+      "norm_label": "\ud83c\udfb2 game strategy tips"
+    },
+    {
+      "label": "\ud83d\udcdd License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L150",
+      "id": "ciphermind_rust_readme_license",
+      "community": 0,
+      "norm_label": "\ud83d\udcdd license"
+    },
+    {
+      "label": "\ud83e\udd1d Contributing",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L154",
+      "id": "ciphermind_rust_readme_contributing",
+      "community": 0,
+      "norm_label": "\ud83e\udd1d contributing"
+    },
+    {
+      "label": "\ud83c\udf1f Acknowledgments",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L163",
+      "id": "ciphermind_rust_readme_acknowledgments",
+      "community": 0,
+      "norm_label": "\ud83c\udf1f acknowledgments"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_difficulty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_feedback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_game"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_feedback_all_exact"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_feedback_no_matches"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L127",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_feedback_color_matches"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L138",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_feedback_mixed"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_validate_guess_valid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L156",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_validate_guess_invalid_length"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L163",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_validate_guess_invalid_color"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_easy_rejects_colors_outside_palette",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_easy_feedback_four_slots",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_hard_requires_five_slots",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_hard_feedback_five_slots",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L263",
+      "weight": 1.0,
+      "source": "src_game_rs",
+      "target": "src_game_test_difficulty_color_palettes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "src_game_difficulty",
+      "target": "src_game_difficulty_colors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "src_game_game_new",
+      "target": "src_game_difficulty_colors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "src_game_game_validate_guess",
+      "target": "src_game_difficulty_colors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_game",
+      "target": "src_game_game_new"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_game",
+      "target": "src_game_game_validate_guess"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_game",
+      "target": "src_game_game_get_feedback"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_game",
+      "target": "src_game_game_submit_guess"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_game_get_feedback",
+      "target": "src_game_game_new"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L150",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_test_validate_guess_valid",
+      "target": "src_game_game_new"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L157",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_test_validate_guess_invalid_length",
+      "target": "src_game_game_new"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L164",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_test_validate_guess_invalid_color",
+      "target": "src_game_game_new"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "src_game_test_easy_rejects_colors_outside_palette",
+      "target": "src_game_game_new",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "src_game_test_hard_requires_five_slots",
+      "target": "src_game_game_new",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_game_submit_guess",
+      "target": "src_game_game_get_feedback"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_test_feedback_all_exact",
+      "target": "src_game_game_get_feedback"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_test_feedback_no_matches",
+      "target": "src_game_game_get_feedback"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_test_feedback_color_matches",
+      "target": "src_game_game_get_feedback"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L143",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_test_feedback_mixed",
+      "target": "src_game_game_get_feedback"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L232",
+      "weight": 1.0,
+      "source": "src_game_test_easy_feedback_four_slots",
+      "target": "src_game_game_get_feedback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game.rs",
+      "source_location": "L252",
+      "weight": 1.0,
+      "source": "src_game_test_hard_feedback_five_slots",
+      "target": "src_game_game_get_feedback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_rs",
+      "target": "src_ui_print_colored_symbol"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_rs",
+      "target": "src_ui_show_guess_result"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_rs",
+      "target": "src_ui_print_hint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_rs",
+      "target": "src_ui_reveal_code"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "src_ui_rs",
+      "target": "src_ui_select_difficulty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_rs",
+      "target": "src_ui_print_welcome"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_rs",
+      "target": "src_ui_play_again"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_show_guess_result",
+      "target": "src_ui_print_colored_symbol"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_reveal_code",
+      "target": "src_ui_print_colored_symbol"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.rs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_print_welcome",
+      "target": "src_ui_print_colored_symbol"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.rs",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_rs",
+      "target": "src_main_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "ciphermind_rust_readme_ciphermind"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_game_overview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_features"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_quick_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_how_to_play"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_technical_details"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_why_rust"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_game_strategy_tips"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L138",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_license"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_contributing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_ciphermind",
+      "target": "ciphermind_rust_readme_acknowledgments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ciphermind_rust_readme_game_overview",
+      "target": "ciphermind_rust_readme_difficulty_modes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_quick_start",
+      "target": "ciphermind_rust_readme_prerequisites"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_quick_start",
+      "target": "ciphermind_rust_readme_installation_running"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_installation_running",
+      "target": "ciphermind_rust_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_how_to_play",
+      "target": "ciphermind_rust_readme_example_gameplay"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_example_gameplay",
+      "target": "ciphermind_rust_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_technical_details",
+      "target": "ciphermind_rust_readme_architecture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_technical_details",
+      "target": "ciphermind_rust_readme_key_functions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_technical_details",
+      "target": "ciphermind_rust_readme_running_tests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ciphermind_rust_readme_running_tests",
+      "target": "ciphermind_rust_readme_codeblock_3"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "d1787878a5931916a45b48cbb53efc191f5cebe1"
+}
