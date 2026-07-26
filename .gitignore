@@ -15,3 +15,7 @@ Thumbs.db
 
 # Debug files
 *.pdb
+
+# Local tools and output
+play
+graphify-out/
