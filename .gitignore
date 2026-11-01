@@ -19,3 +19,10 @@ Thumbs.db
 # Local tools and output
 play
 graphify-out/
+
+# AI coding tool settings and skills (local only)
+.agents/
+.claude/
+.grok/
+.hermes/
+skills-lock.json
